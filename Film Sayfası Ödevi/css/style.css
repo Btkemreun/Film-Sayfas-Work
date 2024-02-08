@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movie-title {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Actor {
+
+    margin-left: 125px;
+    font-family: cursive;
+}
+
+.Actor ul {
+    list-style: none;
+    
+}
+
+
+.Actor .aktörler {
+
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.movie-descripton {
+    margin-top: 1rem;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 20px;
+}
+
+.movie-trailer iframe {
+
+    width: 100%;
+    height: 750px;
+}
+
+.movie-watch button {
+    width: 10%;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.movie-watch {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.movie-watch button:hover {
+
+    background-color: rgb(160, 160, 160);
+}
+
+.movie-trailer iframe {
+
+    border-radius: 10px;
+}
+
+.root {
+
+    margin: 1rem;
+}
+
+.king-kong {
+
+    border-radius: 10px;
+    width: 100%;
+}
+
